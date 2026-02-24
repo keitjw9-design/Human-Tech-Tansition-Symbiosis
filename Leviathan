@@ -1,0 +1,77 @@
+## Definition
+
+The **Leviathan model** describes coupled growth between deployed propulsion capability (T) and enabling space infrastructure (H), where thrust accelerates infrastructure expansion and infrastructure increases the rate of thrust deployment.
+
+---
+
+## Core Equations
+
+Infrastructure-enabled thrust growth:
+
+dT/dt = a H^α
+
+Thrust-enabled infrastructure growth:
+
+dH/dt = c T^β
+
+---
+
+## Symbiosis Condition
+
+Self-reinforcing expansion occurs when:
+
+αβ > 1
+
+This regime is termed **Leviathan symbiosis**.
+
+---
+
+## Physical Interpretation (Space Systems)
+
+- **T** — deployed nuclear-electric tug thrust  
+- **H** — reactors, radiators, depots, truss, propellant supply, assembly capacity  
+- **a** — thrust per infrastructure efficiency  
+- **c** — infrastructure built per thrust throughput  
+
+---
+
+## Engineering Meaning
+
+Deployed tugs transport and assemble infrastructure that increases available power and propulsion, which in turn enables deployment of more tug thrust.
+
+---
+
+## Control Metric
+
+Infrastructure utilization ratio:
+
+G(t) = T_deploy / H
+
+---
+
+## Leviathan Symbiosis (One-Line)
+
+> Deployed thrust builds infrastructure, and infrastructure accelerates thrust deployment.
+
+---
+
+## Domain
+
+Applies to:
+
+- nuclear-electric tug fleets  
+- in-space logistics networks  
+- orbital infrastructure growth  
+
+---
+
+## Status
+
+Conceptual growth model for self-reinforcing space transportation ecosystems.
+
+---
+
+## Citation
+
+Author, "Leviathan Infrastructure–Thrust Symbiosis Model", 2026.  
+GitHub repository: https://github.com/[username]/leviathan-symbiosis-model
